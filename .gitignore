@@ -52,3 +52,18 @@ prompt
 server.log
 # Skills directory
 /skills/
+
+# Database SQLite (cada entorno debe generar su propia base de datos)
+/db/*.db
+/db/*.db-journal
+/db/*.db-shm
+/db/*.db-wal
+
+# Scripts y artefactos del sandbox
+/.zscripts/dev.pid
+
+# PDFs generados (no subir binarios grandes al repo)
+/download/*.pdf
+
+# Mantener .env.example trackeado pero ignorar .env
+!.env.example
